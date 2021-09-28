@@ -1,14 +1,15 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# Docker Bitnami PHP-FPM + Bitnami Google Cloud SDK + Fatcontroller
+# Docker Bitnami PHP-FPM + Docker Bitnami Google Cloud SDK + Fatcontroller
 
-Customization of the [Bitnami PHP-FPM Docker image](https://github.com/bitnami/bitnami-docker-php-fpm) and  [Bitnami Google Cloud SDK Docker image](https://github.com/bitnami/bitnami-docker-google-cloud-sdk) with optional integration of:
+Customization of the [Bitnami PHP-FPM Docker image](https://github.com/bitnami/bitnami-docker-php-fpm) with optional integration of:
 
 - [msmtp](https://marlam.de/msmtp/)
 - [MailHog](https://hub.docker.com/r/mailhog/mailhog/)
 - [Composer](https://getcomposer.org)
 - [WP-CLI](https://wp-cli.org)
 - [New Relic](https://newrelic.com)
+- [Google Cloud SDK](https://github.com/bitnami/bitnami-docker-google-cloud-sdk)
 - [fatcontroller](http://fat-controller.sourceforge.net)
 
 ### Changelog
