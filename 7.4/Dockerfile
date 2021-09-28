@@ -45,7 +45,7 @@ USER 1001
 
 ### gcloud
 
-FROM registry.gitlab.com/frugan/docker-bitnami-php-fpm:7.4
+FROM frugan/bitnami-php-fpm:7.4
 
 ENV USER_ID=1000 \
     GROUP_ID=1000
