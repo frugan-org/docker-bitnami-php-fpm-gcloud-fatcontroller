@@ -45,7 +45,7 @@ USER 1001
 
 ### gcloud
 
-FROM frugan/bitnami-php-fpm:8.0-prod
+FROM frugan/bitnami-php-fpm:8.1
 
 ENV USER_ID=1000 \
     GROUP_ID=1000
