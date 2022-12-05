@@ -91,7 +91,8 @@ RUN install_packages \
 	    wget \
 	; \
     #https://www.includehelp.com/c-programming-questions/compiling-program-with-pthread-library-linux.aspx
-    wget -P /tmp https://downloads.sourceforge.net/project/fat-controller/fatcontroller-${FATCONTROLLER_VERSION}.tar.gz; \
+    #https://stackoverflow.com/a/15252756/3929620
+    wget --no-check-certificate -P /tmp https://downloads.sourceforge.net/project/fat-controller/fatcontroller-${FATCONTROLLER_VERSION}.tar.gz; \
 	tar -zxvf /tmp/fatcontroller-${FATCONTROLLER_VERSION}.tar.gz -C /tmp; \
     \
     cd /tmp/fatcontroller-${FATCONTROLLER_VERSION}/; \
