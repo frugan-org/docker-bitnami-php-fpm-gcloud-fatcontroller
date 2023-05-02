@@ -59,7 +59,7 @@ COPY --from=build /opt/bitnami/google-cloud-sdk /opt/bitnami/google-cloud-sdk
 RUN install_packages \
         #https://github.com/GoogleCloudPlatform/cloud-sdk-docker/pull/87
         openssh-client \
-	    python \
+	    python3 \
     ; \
     # This command slows down the building process.. but trust and wait!
     chown -Rf ${USER_ID}:${GROUP_ID} \
