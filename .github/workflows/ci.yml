@@ -30,15 +30,6 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       -
-        name: Build and push [7.4, 7.4-prod]
-        uses: docker/build-push-action@v4
-        with:
-          context: ./7.4
-          push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/bitnami-php-fpm-gcloud-fatcontroller:7.4,${{ secrets.DOCKERHUB_USERNAME }}/bitnami-php-fpm-gcloud-fatcontroller:7.4-prod
-          cache-from: type=gha
-          cache-to: type=gha,mode=max
-      -
         name: Build and push [8.0]
         uses: docker/build-push-action@v4
         with:
