@@ -8,7 +8,7 @@ Customization of the [Bitnami PHP-FPM Docker image](https://github.com/bitnami/c
 - [fatcontroller](http://fat-controller.sourceforge.net)
 - [Google Cloud SDK](https://github.com/bitnami/bitnami-docker-google-cloud-sdk)
 - [Laravel](https://laravel.com) `APP_ENV` environment variable
-- [MailHog](https://hub.docker.com/r/mailhog/mailhog/)
+- [MailPit](https://hub.docker.com/r/axllent/mailpit)
 - [msmtp](https://marlam.de/msmtp/)
 - [New Relic](https://newrelic.com)
 - [wait-for-it](https://github.com/vishnubob/wait-for-it)
@@ -16,7 +16,10 @@ Customization of the [Bitnami PHP-FPM Docker image](https://github.com/bitnami/c
 
 ### Contributing
 
-For your contributions please use the [git-flow workflow](https://danielkummer.github.io/git-flow-cheatsheet/) and [conventional commits](https://www.conventionalcommits.org).
+For your contributions please use:
+
+- [git-flow workflow](https://danielkummer.github.io/git-flow-cheatsheet/)
+- [conventional commits](https://www.conventionalcommits.org)
 
 ### Changelog
 
