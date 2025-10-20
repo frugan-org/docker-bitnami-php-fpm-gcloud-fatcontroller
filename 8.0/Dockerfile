@@ -4,7 +4,7 @@
 #https://stackoverflow.com/a/49256835/3929620
 #https://www.jhanley.com/google-cloud-understanding-gcloud-configurations/
 #https://github.com/bitnami/bitnami-docker-google-cloud-sdk/issues/1
-FROM bitnami/google-cloud-sdk:latest as build
+FROM frugan/bitnamilegacy-google-cloud-sdk:latest as build
 
 #https://forums.docker.com/t/unable-to-find-user-root-no-matching-entries-in-passwd-file/26545/2
 # Required to perform privileged actions

@@ -17,7 +17,7 @@ set -eEuo pipefail
 
 GCLOUD_CMD=$(which gcloud)
 
-if [ -n "${GCLOUD_EMAIL:-}" ] && [ -n "${GCLOUD_AUTH_FILE:-}" ]; then
+if [ -n "${GCLOUD_EMAIL:-}" ] && [ -n "${GCLOUD_PROJECT_ID:-}" ] && [ -n "${GCLOUD_AUTH_FILE:-}" ]; then
 	echo "running 'gcloud auth activate-service-account'..."
 	runuser -l daemon -c "${GCLOUD_CMD} auth activate-service-account ${GCLOUD_EMAIL} --key-file=${GCLOUD_AUTH_FILE};"
 	runuser -l daemon -c "${GCLOUD_CMD} config set project ${GCLOUD_PROJECT_ID};"
